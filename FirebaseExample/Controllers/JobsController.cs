@@ -16,8 +16,8 @@ namespace FirebaseExample.Controllers
     {
         IFirebaseConfig config = new FirebaseConfig
         {
-            AuthSecret = "ILmIHUGlrUDwgsJaWzYE2OtuejYbjbUJRg0dlHeU",
-            BasePath = "https://pruebamvc-5045f.firebaseio.com/",
+           AuthSecret = "your Key",
+            BasePath = "Your url",
         };
         IFirebaseClient cliente;
 
